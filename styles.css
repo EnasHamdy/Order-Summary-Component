@@ -1,0 +1,127 @@
+/* The main page attributes */
+body{
+    max-width: 1440px;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;    
+}
+
+/* The order summary container box */
+.container{    
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 350px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 25px;   margin-bottom: 25px;    
+}
+
+/* The top image of the order-summary */
+#image{
+    width: 350px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+/* The title font => Order Summary, Annual Plan */
+.title-font{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+/* The content of the order summary */
+p{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+/* The plan-div contains music icon, plan, and Change. */
+.plan-div{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    border-radius: 10px;
+    background-color:hsl(225, 100%, 98%);
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* value-div contains the plan title and value */
+.value-div{
+    width: 50%;
+}
+ /* value-text assigns the text-align of the plan title and value to left */
+.value-text{
+    text-align: left;
+}
+
+/* Button :: Proceed to Payment */
+.button{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0px 10px 12px hsl(225, 100%, 98%);
+    border-style: none;    
+    border-radius: 10px;    
+    padding: 10px 80px;
+    margin: 20px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;    
+}
+
+/* Button :: Proceed to Payment :: when hover */
+.button:hover{
+    cursor: pointer;    
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(224, 23%, 55%);
+}
+
+/* Font-style and colors for Change link*/
+a{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: bold;
+}
+.change{
+    color: hsl(245, 75%, 52%);
+}
+.change:hover{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+/* Cancel Order button */
+.cancel-btn{
+    color: hsl(224, 23%, 55%);
+    background-color : transparent;    
+    border-style: none;
+    margin-bottom: 20px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;    
+}
+
+/* Cancel Order button when hover */
+.cancel-btn:hover{
+    color: hsl(223, 47%, 23%);
+}
